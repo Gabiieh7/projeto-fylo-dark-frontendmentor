@@ -1,0 +1,131 @@
+@media (min-width:1800px) {
+    .feedbacks {
+        padding: 100px 100px 15%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .productive .texts-productive .title-productive {
+        width: auto;
+    }
+
+    .feedbacks {
+        padding: 100px 100px 25%;
+        background-position: top 65px left 85px;
+        ;
+    }
+
+    .feedbacks .list-feedbacks {
+        gap: 25px;
+    }
+
+    .feedbacks .list-feedbacks .item-feedback {
+        width: 35%;
+    }
+
+    .login {
+        padding: 30px 50px;
+    }
+
+    .footer .infos-footer .div-contact-footer {
+        height: auto;
+        width: 30%;
+    }
+
+    .footer .infos-footer {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .header .navegtion .list-nav .item-nav .link-nav {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+
+    .intro {
+        background:var(--gray) url(../images/bg-curvy-mobile.svg) no-repeat;
+        background-position: bottom ;
+        background-size: 100%;
+        padding-bottom: 0;
+    }
+
+    .intro .img-intro {
+        width: 80%;
+    }
+
+    .intro .texts-intro {
+        width: 90%;
+    }
+
+    .intro .texts-intro .description-intro {
+        width: 70%;
+    }
+
+    .intro .texts-intro .btn-intro {
+        width: 60%;
+        padding: 15px;
+    }
+    .benefits {
+        padding-top: 150px;
+    }
+    .benefits .list-benefits .item-benefits {
+        width: 60%;
+    }
+    .productive{
+        flex-direction: column;
+    }
+    .productive .img-productive {
+        max-width: 85%;
+    }
+    .productive .texts-productive {
+        width: 80%;
+    }
+    .feedbacks {
+        background-position:top 60px left 150px;
+        padding-bottom: 50%;
+    }
+    .feedbacks .list-feedbacks {
+        flex-wrap: wrap;
+    }
+    .feedbacks .list-feedbacks .item-feedback {
+        width: 90%;
+        padding: 40px ;
+    }
+    .login{
+        padding: 50px 30px 40px;
+        bottom: -20%;
+    }
+    .login .input-with-button{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .login .input-with-button .div-input .input{
+        padding-right: 130px;
+    }
+    .login .input-with-button .btn-login{
+        width: 95%;
+    }
+    .footer{
+        padding: 250px 50px 50px ;
+    }
+    .footer .infos-footer {
+        flex-direction: column;
+    }
+    .footer .infos-footer .div-links-footer {
+        height: auto;
+        margin:50px 0;
+    }
+    .footer .infos-footer .div-links-footer .link-footer:nth-child(4){
+        margin-bottom: 50px;
+    }
+    .footer .infos-footer .div-icons-footer .list-icons{
+        justify-content: center;
+    }
+}
+@media (max-width: 430px) {
+    body {
+        min-width: min-content;
+        zoom: 0.5;
+    }
+}
