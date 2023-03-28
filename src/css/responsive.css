@@ -44,8 +44,8 @@
     }
 
     .intro {
-        background:var(--gray) url(../images/bg-curvy-mobile.svg) no-repeat;
-        background-position: bottom ;
+        background: var(--gray) url(../images/bg-curvy-mobile.svg) no-repeat;
+        background-position: bottom;
         background-size: 100%;
         padding-bottom: 0;
     }
@@ -66,66 +66,166 @@
         width: 60%;
         padding: 15px;
     }
+
     .benefits {
         padding-top: 150px;
     }
+
     .benefits .list-benefits .item-benefits {
         width: 60%;
     }
-    .productive{
+
+    .productive {
         flex-direction: column;
     }
+
     .productive .img-productive {
         max-width: 85%;
     }
+
     .productive .texts-productive {
         width: 80%;
     }
+
     .feedbacks {
-        background-position:top 60px left 150px;
+        background-position: top 60px left 150px;
         padding-bottom: 50%;
     }
+
     .feedbacks .list-feedbacks {
         flex-wrap: wrap;
     }
+
     .feedbacks .list-feedbacks .item-feedback {
         width: 90%;
-        padding: 40px ;
+        padding: 40px;
     }
-    .login{
+
+    .login {
         padding: 50px 30px 40px;
         bottom: -20%;
     }
-    .login .input-with-button{
+
+    .login .input-with-button {
         flex-direction: column;
         gap: 10px;
     }
-    .login .input-with-button .div-input .input{
+
+    .login .input-with-button .div-input .input {
         padding-right: 130px;
     }
-    .login .input-with-button .btn-login{
+
+    .login .input-with-button .btn-login {
         width: 95%;
     }
-    .footer{
-        padding: 250px 50px 50px ;
+
+    .footer {
+        padding: 250px 50px 50px;
     }
+
     .footer .infos-footer {
         flex-direction: column;
     }
+
     .footer .infos-footer .div-links-footer {
         height: auto;
-        margin:50px 0;
+        margin: 50px 0;
     }
-    .footer .infos-footer .div-links-footer .link-footer:nth-child(4){
+
+    .footer .infos-footer .div-links-footer .link-footer:nth-child(4) {
         margin-bottom: 50px;
     }
-    .footer .infos-footer .div-icons-footer .list-icons{
+
+    .footer .infos-footer .div-icons-footer .list-icons {
         justify-content: center;
     }
 }
+
 @media (max-width: 430px) {
-    body {
-        min-width: min-content;
-        zoom: 0.5;
+    .header .navegtion .list-nav .item-nav .link-nav {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+    .intro .texts-intro .title-intro {
+        font-size: 27px;
+        line-height: 38px;
+    }
+
+    .intro .texts-intro .description-intro {
+        width: 85%;
+    }
+
+    .benefits .list-benefits .item-benefits {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .productive {
+        padding: 50px 40px;
+    }
+
+    .productive .img-productive {
+        max-width: 100%;
+    }
+
+    .productive .texts-productive {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .productive .texts-productive .title-productive,
+    .login .title-login {
+        font-size: 20px;
+    }
+
+    .feedbacks {
+        padding: 100px 40px 100%;
+        background-position: top 60px left 30px;
+    }
+
+    .feedbacks .list-feedbacks .item-feedback {
+        width: 100%;
+        font-size: 12px;
+        line-height: 20px;
+        padding: 30px;
+    }
+
+    .footer .logo-footer {
+        width: 140px;
+    }
+
+    .login {
+        width: 90%;
+    }
+
+    .phone {
+        height: 30px;
+    }
+
+    .text-address {
+        width: 80%;
+    }
+}
+
+@media (max-width: 320px) {
+    .header .navegtion .list-nav .item-nav .link-nav {
+        font-size: 10px;
+        padding: 0 7px;
+    }
+    .header .logo-header {
+        width: 70px;
+    }
+    .intro .texts-intro .title-intro {
+        font-size: 20px;
+        line-height: 25px;
+        width: 90%;
+       margin: 30px auto;
+    }
+    .address,
+    .text-address,
+    .phone,
+    .email{
+        max-width: 80vw;
     }
 }
